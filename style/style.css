@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: #f0d1db;
+}
+
+.header {
+  width: 1200px;
+  margin: auto;
+  /* border: 1px solid; */
+}
+
+.navbar,
+.navbar__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__list {
+  gap: 40px;
+}
+
+.navbar__link {
+  /* Product */
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #150101;
+
+  opacity: 0.6;
+}
+
+.navbar__link:focus {
+  color: #650727;
+}
+
+.navbar__btn {
+  /* Rectangle 30 */
+
+  width: 165px;
+  height: 49px;
+
+  background: #d23166;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.intro__text {
+  /* Sweet fun, full of milk. */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+
+  color: #0f0101;
+}
+
+.intro__title {
+  /* Feel inside cold with our delicious ice-cream. */
+
+  width: 665px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57.33px;
+  line-height: 120.5%;
+  /* or 69px */
+
+  color: #0f0101;
+
+  opacity: 0.9;
+}
+
+.intro__title span {
+  color: #650727;
+}
+
+.intro__subtext {
+  width: 523px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* or 150% */
+
+  color: #0f0101;
+
+  opacity: 0.6;
+  margin: 20px 0;
+}
+
+.container {
+  width: 100%;
+  background-color: rgb(235, 232, 232);
+}
+
+.cards {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  background-color: rgb(183, 178, 178);
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 10px 2px;
+}
+
+.brown {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brown__text {
+  margin: 20px 0;
+}
